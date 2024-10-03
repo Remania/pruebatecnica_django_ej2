@@ -58,3 +58,21 @@ Actualizar un producto existente:
 Eliminar un producto: 
 - DELETE /api/products/{id}
 - URL: http://127.0.0.1:8000/api/products/{id}
+
+## Resumen de como aprendí a usar el framework Django
+
+- Primero, revisé la documentación oficial del framework en su página oficial.
+- Luego, aprendí a utilizar el archivo settings.py para inicializar las apps creadas con los comandos de Django, en este caso, la app products.
+- Hice uso de la clase ModelViewSet para tener las funciones CRUD inicializadas.
+- Modifique las funciones para que muestren mensajes personalizados en cada request.
+- Use la clase ModelSerializer para añadir las validaciones a la clase Product.
+- Finalmente, añadí la urls correspondientes a urls.py para completar la API.
+
+## Recursos utilizados
+
+- Documentación oficial: https://www.djangoproject.com/
+- Consultas específicas: https://stackoverflow.com/questions/tagged/django
+
+## Desafíos presentados y su solución
+
+- El desarrollo del proyecto no tuvo complicación alguna, solo tuve que aprender que era el concepto de "baterías incluidas" en Django. Que, en resumen, es la filosofía del framework de proporcionar un conjunto completo de herramientas y características listas para usar desde el inicio del desarrollo. Es decir, que ya viene con muchas librerías de uso común para todo tipo de proyectos, siendo una buena opción frente a frameworks más complejos como .NET, por ejemplo.
