@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+instance/
+media/
+staticfiles/
+
+# If you are using MySQL or PostgreSQL
+*.dump
+*.sql
+
+# Ignore virtual environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local settings
+local_settings.py
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Secret key and sensitive data files
+secret_key.txt
+
+# Django migrations
+migrations/
+*/migrations/
+
+# Cache and session files
+*.mo
+*.pid
+*.pid.lock
+*.tmp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+# JetBrains specific
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Test results
+.junit/
+
+# Logs
+*.log
+
+# Static folder
+static/
+
+# Ignore compiled translations
+*.mo
