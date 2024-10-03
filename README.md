@@ -27,7 +27,9 @@ pip install -r requirements.txt
 ### 3. Configurar la Base de Datos
 Este proyecto utiliza SQLite como base de datos predeterminada. Para crear la base de datos y las tablas necesarias, ejecuta las migraciones:
 
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py makemigrations products
+- python manage.py migrate
 
 ### 4. Iniciar el servidor de desarrollo
 Inicia el servidor de desarrollo de Django con el siguiente comando:
